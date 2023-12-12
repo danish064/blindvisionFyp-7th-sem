@@ -23,10 +23,10 @@ class Audio: TextToSpeech.OnInitListener {
             if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
                 Log.i("TTS", "This Language is not supported")
             } else {
-                Log.i("TTS", "Initilization Success!")
+                Log.i("TTS", "Initialization Success!")
             }
         } else {
-            Log.e("TTS", "Initilization Failed!")
+            Log.e("TTS", "Initialization Failed!")
         }
     }
 
